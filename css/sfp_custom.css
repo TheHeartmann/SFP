@@ -1,0 +1,69 @@
+
+
+
+.logo {
+	max-width: 100%;
+}
+
+#navLogo {
+	max-height: 80%;
+}
+
+.navbar-brand {
+	left: 20px;
+}
+
+.navbar-brand {
+	left: 20px;
+}
+
+
+
+.container-fluid {
+
+}
+
+
+
+#footer {
+	height: 70px;
+	background-color: #00483A;
+	overflow: hidden;
+}
+
+
+.myDiv {
+	height: 10px;
+}
+
+.smLinks {
+
+}
+
+.smIcon {
+		max-height: 100%;
+}
+
+.bg-dark {
+	background-color: #01362C;
+}
+
+
+
+.bg-primary {
+	background-color: #033C31;
+}
+
+.col-sm-6 {
+
+
+}
+
+.btn-primary {
+	background-color: #004739;
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover {
+	background-color: #9CBB99;
+}

@@ -51,12 +51,12 @@ p {
 }
 
 .bg-primary {
-	background-color: #71A05A;
+	background-color: #07322B;
 }
 
 .bg-dark {
 	color: #fff;
-	background-color: #9EB46D;
+	background-color: #FFF;
 }
 
 .text-faded {
@@ -87,7 +87,7 @@ aside {
 	text-transform: uppercase;
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 	font-weight: 700;
-	color: #f05f40;
+	color: #246C20;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -105,12 +105,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-	color: #f05f40;
+	color: #246C20;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-	color: #f05f40!important;
+	color: #246C20!important;
 	background-color: transparent;
 }
 
@@ -167,7 +167,7 @@ header {
 	min-height: auto;
 	text-align: center;
 	color: #fff;
-	background-image: url(../img/header.jpg);
+	background-image: url(../img/header_new.jpg);
 	background-position: center;
 	background-size: cover;
 	-o-background-size: cover;
@@ -379,9 +379,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-	border-color: #ed431f;
+	border-color: #9CBB99;
 	color: #fff;
-	background-color: #ee4b28;
+	background-color: #787A67;
 }
 
 .btn-primary:active,
@@ -408,8 +408,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-	border-color: #f05f40;
-	background-color: #f05f40;
+	border-color: #246C20;
+	background-color: #246C20;
 }
 
 .btn-primary .badge {
@@ -459,3 +459,22 @@ img::-moz-selection {
 body {
 	webkit-tap-highlight-color: #222;
 }
+
+/*Thomas*/
+
+#sfpNavBar {
+	font-family: "fipps-Regular";
+}
+#sfp {
+	font-family: "fipps-Regular";
+}
+
+#showreel {
+	background-color: #082620;
+}
+inlineblock
+
+
+
+
+
