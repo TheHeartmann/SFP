@@ -27,7 +27,7 @@
 
 #footer {
 	height: 70px;
-	background-color: #00483A;
+	background-color: #003530;
 	overflow: hidden;
 }
 
@@ -37,7 +37,8 @@
 }
 
 .smLinks {
-
+	margin-left: 12px;
+	margin-right: 12px;
 }
 
 .smIcon {
@@ -46,17 +47,19 @@
 
 .bg-dark {
 	background-color: #00483A;
+	padding: none;
 }
 
 
 
 .bg-primary {
-	background-color: #00483A;
+	background-color: #4D8359;
 }
 
 .col-sm-6 {
-
-
+	margin: auto;
+/*	min-width: 600px;*/
+	padding-bottom: px;
 }
 
 .btn-primary {
@@ -88,6 +91,33 @@ a.bg-primary:hover {
 	align-content: center;
 }
 
+.header-content-inner > p{
+	color: red;
+}
+
 .text-primary {
 	color: 00483A;
+}
+
+#headerText {
+	color: #FFF;
+}
+
+.col-lg-4 {
+}
+
+.linkDiv {
+	height: 100%;
+max-width: 389px;
+	margin: auto;
+
+}
+
+#portfolio {
+	background-color: #6E6C4F;
+}
+
+
+a:hover {
+	color: #b9e6a4;
 }
