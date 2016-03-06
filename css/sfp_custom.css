@@ -45,13 +45,13 @@
 }
 
 .bg-dark {
-	background-color: #01362C;
+	background-color: #00483A;
 }
 
 
 
 .bg-primary {
-	background-color: #033C31;
+	background-color: #00483A;
 }
 
 .col-sm-6 {
@@ -60,10 +60,34 @@
 }
 
 .btn-primary {
-	background-color: #004739;
+	background-color: #787A67;
 }
 
 a.bg-primary:focus,
 a.bg-primary:hover {
 	background-color: #9CBB99;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	border-color: #9CBB99;
+	color: #fff;
+	background-color: #004738;
+}
+
+#logoDiv {
+	max-width: 900px;
+	margin: auto;
+}
+
+.header-content-inner {
+	align-content: center;
+}
+
+.text-primary {
+	color: 00483A;
 }
