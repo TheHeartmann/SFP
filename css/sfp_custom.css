@@ -106,11 +106,10 @@ a.bg-primary:hover {
 .col-lg-4 {
 }
 
-.linkDiv {
+#iconDiv {
 	height: 100%;
 max-width: 389px;
 	margin: auto;
-
 }
 
 #portfolio {
@@ -120,4 +119,18 @@ max-width: 389px;
 
 a:hover {
 	color: #b9e6a4;
+}
+
+.footerDiv {
+}
+
+#jocce {
+	margin-left: 10px;
+	position: absolute;
+	margin-top: 29px;
+}
+
+#jocceLink {
+	color: #A7CBA3;
+	top: 100px;
 }
