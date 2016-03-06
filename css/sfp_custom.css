@@ -26,9 +26,9 @@
 
 
 #footer {
-	height: 70px;
+	height: 90px;
 	background-color: #003530;
-	overflow: hidden;
+
 }
 
 
@@ -107,9 +107,8 @@ a.bg-primary:hover {
 }
 
 #iconDiv {
-	height: 100%;
+	height: 70px;
 max-width: 389px;
-	margin: auto;
 }
 
 #portfolio {
@@ -122,15 +121,16 @@ a:hover {
 }
 
 .footerDiv {
+	margin: auto;
 }
 
 #jocce {
-	margin-left: 10px;
-	position: absolute;
-	margin-top: 29px;
+		width: 243px;
 }
 
 #jocceLink {
 	color: #A7CBA3;
-	top: 100px;
+	:hover{
+		color: fuchsia;
+	}
 }
