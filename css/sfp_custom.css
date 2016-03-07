@@ -6,7 +6,9 @@
 }
 
 #navLogo {
-	max-height: 80%;
+	max-width: 125%;
+	margin-left: -10PX;
+	margin-top: 2px;
 }
 
 .navbar-brand {
@@ -14,7 +16,7 @@
 }
 
 .navbar-brand {
-	left: 20px;
+/*	left: 0px;*/
 }
 
 
@@ -107,8 +109,8 @@ a.bg-primary:hover {
 }
 
 #iconDiv {
-	height: 70px;
-max-width: 291px;
+	height: 50px;
+max-width: 231px;
 }
 
 #portfolio {
@@ -133,4 +135,16 @@ a:hover {
 	:hover{
 		color: fuchsia;
 	}
+}
+
+.navbar-nav {
+/*
+	position: absolute;
+	right: 15px;
+*/
+}
+
+#copyright {
+	width: 202px;
+	color: #A7CBA3;
 }
