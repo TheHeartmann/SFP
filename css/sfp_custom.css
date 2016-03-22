@@ -115,6 +115,8 @@ max-width: 231px;
 
 #portfolio {
 	background-color: #6E6C4F;
+	position: relative;
+    height: 67vw;
 }
 
 
@@ -147,4 +149,82 @@ a:hover {
 #copyright {
 	width: 160px;
 	color: #A7CBA3;
+}
+
+.portfolioBox {
+    position: absolute;
+	width: 50vw;
+	height: 33.5vw;
+    background-color: #324312;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#box1 {
+    right: 50%;
+    bottom: px;
+	background-image: url(../img/portfolio/TRc4.gif);
+}
+
+#box2 {
+    left: 50%;
+    top: 0;
+	background-image: url(../img/portfolio/cb_gif.gif);
+
+}
+
+#box3 {
+    right: 50%;
+    top:33.5vw;
+	background-image: url(../img/portfolio/cm_2.jpeg);
+}
+
+#box4 {
+    left: 50%;
+    top:33.5vw;
+	background-image: url(../img/portfolio/tr_2.png);
+}
+
+#caveblazers{
+    width: 80%;
+	position: relative;
+    margin: auto;
+
+    display: none;
+    background-color: #c6c6c6;
+    border-radius: 10px;
+	border: 1px solid black;
+}
+
+#caveblazers:target{
+    display: block;
+}
+
+.popUpClose {
+    background-color: black;
+    border-radius: 100px;
+	width: =height;
+    border: 2px solid white;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    right: -5px;
+	top: -5px;
+}
+
+.portfolio-box-caption {
+	height: 100%;
+	width: 100%;
+}
+
+.portfolio-box {
+}
+
+.filler {
+	height: 50px;
+}
+
+.popUpPlayer {
+	top: 50px;
 }
