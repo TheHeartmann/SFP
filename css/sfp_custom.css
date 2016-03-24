@@ -103,6 +103,8 @@ max-width: 231px;
 	background-color: #6E6C4F;
 	position: relative;
     height: 67vw;
+	background-image: url(../img/header_template-filter.jpg);
+	background-size: cover;
 }
 
 
@@ -147,27 +149,27 @@ a:hover {
 }
 
 #box1 {
-    right: 50%;
+    left:0%;
     bottom: px;
 	background-image: url(../img/portfolio/TRc4.gif);
 }
 
 #box2 {
-    left: 50%;
+    right: 0%;
     top: 0;
 	background-image: url(../img/portfolio/cb_gif.gif);
 
 }
 
 #box3 {
-    right: 50%;
-    top:33.5vw;
+    left: 0%;
+    bottom:0;
 	background-image: url(../img/portfolio/cm_2.jpeg);
 }
 
 #box4 {
-    left: 50%;
-    top:33.5vw;
+    right: 0%;
+    bottom:0;
 	background-image: url(../img/portfolio/tr_2.png);
 }
 
@@ -190,6 +192,7 @@ a:hover {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+
 
 /* Modal Content */
 .modalContent {
@@ -246,4 +249,17 @@ a:hover {
     padding: 2px 16px;
     background-color: #003530;
     color: #A7CBA3;
+}
+
+#viewWindow {
+	max-width: 1100px;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+
+iframe {
+	float: right;
 }
