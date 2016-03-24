@@ -26,13 +26,6 @@ window.onclick = function (event) {
 }
 */
 
-var span = document.getElementsByClassName("closeX")[0];
-
-	span.onclick = function () {
-		modal.style.display = "none";
-	}
-
-
 function openModal(game) {
 
 	if (game == 'cb') {
@@ -44,6 +37,14 @@ function openModal(game) {
 	} else if (game == 'sfp') {
 		var modal = document.getElementById('showreelModal');
 	}
+
+//	var span = document.getElementsByClassName("closeX")[0];
+
+	document.getElementsByClassName("closeX").onclick = function () {
+		modal.style.display = "none";
+	}
+
+
 
 	modal.style.display = "block";
 
