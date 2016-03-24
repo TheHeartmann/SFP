@@ -26,28 +26,26 @@ window.onclick = function (event) {
 }
 */
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("closeX")[0];
+
+	span.onclick = function () {
+		modal.style.display = "none";
+	}
 
 
 function openModal(game) {
 
-	var modal;
-
 	if (game == 'cb') {
 		var modal = document.getElementById('cbModal');
-	}else if (game == 'tr') {
+	} else if (game == 'tr') {
 		var modal = document.getElementById('trModal');
-	}else if (game == 'cm') {
+	} else if (game == 'cm') {
 		var modal = document.getElementById('cmModal');
-	}else if (game == 'sfp') {
+	} else if (game == 'sfp') {
 		var modal = document.getElementById('showreelModal');
 	}
 
 	modal.style.display = "block";
-	span.onclick = function () {
-		modal.style.display = "none";
-	}
 
 	window.onclick = function (event) {
 		if (event.target == modal) {
