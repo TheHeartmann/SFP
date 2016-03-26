@@ -215,23 +215,23 @@
 	</section>
 	<section class="no-padding" id="footer">
 		<div class="footerDiv" id="iconDiv">
-			<a href="https://soundcloud.com/soundsforpixels" class="smLinks"><img src="img/icons/soundcloud_no_bg.png" class="smIcon"></a>
-			<a href="https://twitter.com/soundsforpixels" class="smLinks"><img src="img/icons/twitter_no_bg.png" class="smIcon"></a>
-			<a href="https://instagram.com/soundsforpixels" class="smLinks"><img src="img/icons/instagram_no_bg.png" class="smIcon"></a>
+			<a href="https://soundcloud.com/soundsforpixels" target="_blank" class="smLinks"><i class="fa fa-soundcloud"></i></a>
+			<a href="https://twitter.com/soundsforpixels" target="_blank" class="smLinks"><i class="fa fa-twitter"></i></a>
+			<a href="https://instagram.com/soundsforpixels" target="_blank" class="smLinks"><i class="fa fa-instagram"></i></a>
 		</div>
 		<div class="footerDiv" id="copyright">
 			© Sounds for Pixels
 		</div>
 		<div class="footerDiv" id="jocce">
-			<a href="http://jocce.com" id="jocceLink">Header artwork by Jocce Marklund</a>
+			<a href="http://jocce.com">Header artwork by Jocce Marklund</a>
 		</div>
 	</section>
 
 	<!--	Modals-->
-	<div id="trModal" class="sfpModal" onclick="openModal('tr');">
+	<div id="trModal" class="sfpModal">
 		<div class="modalContent">
 			<div class="modalHeader">
-				<span class="closeX">×</span>
+				<span class="closeX" id="trClose">×</span>
 			</div>
 			<div class="modalBody">
 				<h3>Trench Run</h3>
@@ -252,7 +252,7 @@
 	<div id="cbModal" class="sfpModal">
 		<div class="modalContent">
 			<div class="modalHeader">
-				<span class="closeX">×</span>
+				<span class="closeX" id="cbClose">×</span>
 			</div>
 			<div class="modalBody">
 				<div class="iframeWrap">
@@ -263,7 +263,7 @@
 					A 2D platformer rogue-like set in a fantasy world. Features epic and ambient medieval-inspired music.
 					<br><br>Developed by:
 					<a href="http://www.rupeck.com/" target="_blank">Rupeck Games</a>
-					<br><a href="http://www.rupeck.com/" target="_blank">Available here</a>
+					<br><a href="http://www.caveblazers.com/" target="_blank">Available here</a>
 				</p>
 				<iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/209001134%3Fsecret_token%3Ds-eh9m7&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 			</div>
@@ -276,7 +276,7 @@
 	<div id="cmModal" class="sfpModal">
 		<div class="modalContent">
 			<div class="modalHeader">
-				<span class="closeX">×</span>
+				<span class="closeX" id="cmClose">×</span>
 			</div>
 			<div class="modalBody">
 
@@ -295,10 +295,10 @@
 		</div>
 	</div>
 
-	<div id="showreelModal" class="sfpModal" onclick="openModal('sfp');">
+	<div id="showreelModal" class="sfpModal">
 		<div class="modalContent">
 			<div class="modalHeader">
-				<span class="closeX">×</span>
+				<span class="closeX" id="sfpClose">×</span>
 			</div>
 			<div class="modalBody">
 				<h3>Showreel</h3>

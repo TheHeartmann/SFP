@@ -14,8 +14,8 @@
 
 
 #footer {
-	height: 90px;
 	background-color: #003530;
+	padding-bottom: 5px;
 
 }
 
@@ -29,9 +29,7 @@
 	margin-right: 12px;
 }
 
-.smIcon {
-		max-height: 100%;
-}
+
 
 .bg-dark {
 	background-color: #00483A;
@@ -95,8 +93,12 @@ a.bg-primary:hover {
 }
 
 #iconDiv {
-	height: 50px;
-max-width: 231px;
+max-width: ;
+	text-align: center;
+}
+
+#iconDiv *{
+	font-size: 30px;
 }
 
 #portfolio {
@@ -114,18 +116,18 @@ a:hover {
 
 .footerDiv {
 	margin: auto;
+	text-align: center;
+}
+
+.footerDiv {
+	color: #71A05A;
 }
 
 #jocce {
-		width: 243px;
+	color: #71A05A;
 }
 
-#jocceLink {
-	color: #A7CBA3;
-	:hover{
-		color: fuchsia;
-	}
-}
+
 
 .navbar-nav {
 /*
@@ -135,8 +137,7 @@ a:hover {
 }
 
 #copyright {
-	width: 160px;
-	color: #A7CBA3;
+	color: #71A05A;
 }
 
 .portfolioBox {
@@ -291,3 +292,11 @@ iframe {
 
 
 
+
+.smIcon {
+	font-size: 12px;
+}
+
+.smLinks:active {
+	background-color: beige;
+}

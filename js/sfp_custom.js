@@ -26,30 +26,28 @@ window.onclick = function (event) {
 }
 */
 
+
 function openModal(game) {
 
 	if (game == 'cb') {
 		var modal = document.getElementById('cbModal');
+		var span = document.getElementById('cbClose')
 	} else if (game == 'tr') {
 		var modal = document.getElementById('trModal');
+		var span = document.getElementById('trClose');
 	} else if (game == 'cm') {
 		var modal = document.getElementById('cmModal');
+		var span = document.getElementById('cmClose');
 	} else if (game == 'sfp') {
 		var modal = document.getElementById('showreelModal');
+		var span = document.getElementById('sfpClose');
 	}
 
-var span = document.getElementsByClassName("closeX");
-
-//	document.getElementsByClassName("closeX").onclick = function () {
-//		modal.style.display = "none";
-//	}
-
-span.onclick = function () {
-	modal.style.display = "none";
-}
-
-
 	modal.style.display = "block";
+
+	span.onclick = function () {
+		modal.style.display = "none";
+	}
 
 	window.onclick = function (event) {
 		if (event.target == modal) {
