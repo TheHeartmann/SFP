@@ -38,12 +38,15 @@ function openModal(game) {
 		var modal = document.getElementById('showreelModal');
 	}
 
-//	var span = document.getElementsByClassName("closeX")[0];
+var span = document.getElementsByClassName("closeX");
 
-	document.getElementsByClassName("closeX").onclick = function () {
-		modal.style.display = "none";
-	}
+//	document.getElementsByClassName("closeX").onclick = function () {
+//		modal.style.display = "none";
+//	}
 
+span.onclick = function () {
+	modal.style.display = "none";
+}
 
 
 	modal.style.display = "block";
