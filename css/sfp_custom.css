@@ -156,7 +156,7 @@ a:hover {
 }
 
 #box2 {
-    left: 33.3%;
+    left: 33.333333%;
     top: 0;
 	background-image: url(../img/portfolio/cb_gif_2.gif);
 
@@ -170,6 +170,12 @@ a:hover {
 
 #box4 {
     left: 0%;
+    bottom:0;
+	background-image: url(../img/portfolio/necken.gif);
+}
+
+#box5 {
+    left: 33.3333333%;
     bottom:0;
 	background-image: url(../img/portfolio/reeltest.gif);
 }
@@ -247,6 +253,10 @@ a:hover {
 
 .modalBody {padding: 2px 16px;}
 
+.modalBody p {
+		font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
 .modalFooter {
     padding: 2px 16px;
     background-color: #003530;
@@ -285,9 +295,7 @@ iframe {
 	height: 100%;
 }
 
-.modalText {
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
+
 
 
 

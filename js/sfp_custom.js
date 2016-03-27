@@ -41,6 +41,9 @@ function openModal(game) {
 	} else if (game == 'sfp') {
 		var modal = document.getElementById('showreelModal');
 		var span = document.getElementById('sfpClose');
+	} else if (game == 'necken') {
+		var modal = document.getElementById('neckenModal');
+		var span = document.getElementById('neckenClose');
 	}
 
 	modal.style.display = "block";
