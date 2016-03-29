@@ -104,7 +104,7 @@ max-width: ;
 #portfolio {
 	background-color: #6E6C4F;
 	position: relative;
-    height: 40vw;
+    height: 38vw;
 	background-image: url(../img/header_template-filter.jpg);
 	background-size: cover;
 }
@@ -143,7 +143,7 @@ a:hover {
 .portfolioBox {
     position: absolute;
 	width: 33.33333333vw;
-	height: 20vw;
+	height: 19vw;
     background-color: #324312;
     background-size: cover;
     overflow: hidden;
@@ -152,13 +152,13 @@ a:hover {
 #box1 {
     left:0%;
     bottom: px;
-	background-image: url(../img/portfolio/TRc4.gif);
+	background-image: url(../img/portfolio/tr_crop.gif);
 }
 
 #box2 {
     left: 33.333333%;
     top: 0;
-	background-image: url(../img/portfolio/cb_gif_2.gif);
+	background-image: url(../img/portfolio/cb_crop.gif);
 
 }
 
@@ -171,13 +171,20 @@ a:hover {
 #box4 {
     left: 0%;
     bottom:0;
-	background-image: url(../img/portfolio/necken.gif);
+	background-image: url(../img/portfolio/necken_crop.gif);
 }
 
 #box5 {
     left: 33.3333333%;
     bottom:0;
-	background-image: url(../img/portfolio/reeltest.gif);
+	background-image: url(../img/portfolio/interface_gif2.gif);
+	background-size: cover;
+}
+
+#box6 {
+    left: 66.6666666%;
+    bottom:0;
+	background-image: url(../img/portfolio/interface_gif.gif);
 }
 
 .portfolio-box-caption {
