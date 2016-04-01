@@ -315,3 +315,12 @@ iframe {
 .smLinks:active {
 	background-color: beige;
 }
+
+.quote {
+	font-family: cursive;
+	color:gray;
+}
+
+.portfolioRoles {
+	bottom: 0;
+}
